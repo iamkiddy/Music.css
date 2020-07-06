@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*
+ BOUNCE ANIMATION 
+*/
+.animation-bounce {
+  font-size: 30px;
+  animation-name: bounce;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bounce {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+/*
+END OF BOUNCE ANIMATION
+*/
+
+/*
+FADE IN ANIMATION
+*/
+
+.animation-fade-in {
+}
